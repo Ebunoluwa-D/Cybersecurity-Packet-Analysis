@@ -12,9 +12,4 @@ This project demonstrates the security risks associated with unencrypted web tra
 1. **Cleartext Exposure:** By following the TCP Stream, I reconstructed the full HTTP request. All headers, including `User-Agent` and `Host`, were visible in plain text.
 2. **Compression vs Encryption:** The capture revealed `Content-Encoding: gzip`. This confirms the data was compressed for speed but lacked TLS encryption, making it vulnerable to interception.
 
-## ✅ Visual Proof
-### Packet Capture List
-![Wireshark List](./image_381aca.png)
-
-### Reconstructed TCP Stream
-![TCP Stream](./image_381e0f.jpg)
+find the wireshark file and screenshots above thanks
