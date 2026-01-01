@@ -14,7 +14,7 @@ This project demonstrates the security risks associated with unencrypted web tra
 
 ## ✅ Visual Proof
 ### Packet Capture List
-![Wireshark List](./images/image_381aca.png)
+![Wireshark List](./image_381aca.png)
 
 ### Reconstructed TCP Stream
-![TCP Stream](./images/image_381e0f.jpg)
+![TCP Stream](./image_381e0f.jpg)
